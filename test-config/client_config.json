@@ -1,0 +1,35 @@
+{
+    "role": "CLIENT",
+    "conn_type": "IB",
+    "server_id": 5,
+    "udp_port": 2333,
+    "memory_num": 5,
+    "memory_ips": [
+        "10.10.10.1",
+        "10.10.10.2",
+        "10.10.10.3",
+        "10.10.10.4",
+        "10.10.10.5"
+    ],
+    "ib_dev_id": 0,
+    "ib_port_id": 1,
+    "ib_gid_idx": 0,
+
+    "server_base_addr":  "0x10000000",
+    "server_data_len":   34359738368,
+    "block_size":        16777216,
+    "subblock_size":     1024,
+    "client_local_size": 1073741824,
+
+    "num_replication": 3,
+    "num_idx_rep": 3,
+    "num_coroutines": 10,
+    "miss_rate_threash": 0.1,
+    "workload_run_time": 10,
+    "micro_workload_num": 10000,
+
+    "main_core_id": 0,
+    "poll_core_id": 1,
+    "bg_core_id": 2,
+    "gc_core_id": 3
+}
